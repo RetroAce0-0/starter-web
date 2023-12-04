@@ -1,0 +1,28 @@
+#This is a matching animal to their sounds game
+exit = "no"
+
+while exit != 'no': #if exit is 'no' print animal  (as response)
+  animal = input("what animal sound would you like to hear?: ")
+  if animal == 'dog' or animal == 'Dog':
+    print("a dog goes woof woof!")
+    print()
+  elif animal == 'sheep' or animal == 'Sheep':
+    print('sheep goes Baah Bleeh')
+    print()
+  elif animal == 'cow' or animal == 'Cow':
+    print("cow goes moo moo...")
+    print()
+  elif animal == 'pig' or animal == 'Pig':
+    print('pig goes Ooink!')
+    print()
+  elif animal == 'cat' or animal == 'Cat':
+    print("cat goes meoow!")
+    print()
+  elif animal == 'duck' or animal == 'Duck':
+    print("duck goes quack Quack!")
+    print()
+  else:
+    print('Animal not found')
+    print()
+  exit = input("want to continue? ")
+  print("Have a good day!!")
